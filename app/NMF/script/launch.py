@@ -4,7 +4,7 @@ import os
 from os.path import dirname, join
 import time
 
-hostfile_name = "machinefiles/localserver"
+hostfile_name = "machinefiles/2nodes" # start on 2 nodes (8 nodes also gives the bug)
 
 app_dir = dirname(dirname(os.path.realpath(__file__)))
 proj_dir = dirname(dirname(app_dir))
